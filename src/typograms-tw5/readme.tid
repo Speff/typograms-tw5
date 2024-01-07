@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 !! What is it
 
 Wrapper for Google's Typograms.js - a javascript library which can render ASCII diagrams into simple diagrams
-<br> Take a look at [[the Typogram page|https://google.github.io/typograms/]] for more details and examples
+<br> Take a look at [[the Typogram page|https://google.github.io/typograms/]] for more details and examples. The source for this plugin can be found [[here|https://github.com/Speff/typograms-tw5]]
 
 !! Calling it
 
