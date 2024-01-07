@@ -1,0 +1,23 @@
+title: $:/plugins/Speff/typograms-tw5/credits
+type: text/vnd.tiddlywiki
+
+! typograms-tw5
+
+Credits go to -
+
+Sam Goto for making typograms  
+<br>https://google.github.io/typograms/
+
+lin onetwo for the Modern.TiddlyDev dev environment  
+<br>https://tiddly-gittly.github.io/Modern.TiddlyDev/
+
+gt6796c for mermaid-tw5 which I loosely based this plugin off of  
+<br>https://github.com/gt6796c/mermaid-tw5
+
+tw-FRed for Variable<->Monospace toggle code  
+<br>https://talk.tiddlywiki.org/t/css-rule-for-the-font-in-the-edit-area/4581/8  
+<br>+ Mohammad for explaining how to make toolbar buttons
+<br>https://talk.tiddlywiki.org/t/an-editor-toolbar-button-to-insert-user-signature-with-timestamp/1949
+
+Furlan/orange for the in-code explanations on how to add a new content type to the tw dropdown  
+<br>https://talk.tiddlywiki.org/t/mermaid-tw5-plugin-update-to-mermaid-8-13-2-9-3-0/1117/32

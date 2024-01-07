@@ -1,0 +1,19 @@
+title: $:/plugins/Speff/typograms-tw5/editor-button
+caption: toggle editor mono
+description: Toggles monospace fonts within the editor when Typogram type is selected
+condition: [<targetTiddler>]
+tags: $:/tags/EditorToolbar
+icon: $:/core/images/mono-block
+list-before: $:/core/ui/EditorToolbar/stamp
+shortcuts: ((mono))
+
+<$list filter="[[$:/themes/tiddlywiki/vanilla/settings/editorfontfamily]!has[text]]"><$action-setfield
+	$tiddler="$:/themes/tiddlywiki/vanilla/settings/editorfontfamily"
+	$field="text"
+    $value='"SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace'
+/>→M</$list>
+<$list filter="[[$:/themes/tiddlywiki/vanilla/settings/editorfontfamily]has[text]]"><$action-setfield
+	$tiddler="$:/themes/tiddlywiki/vanilla/settings/editorfontfamily"
+	$field="text"
+    $value=""
+/>→V</$list>

@@ -1,0 +1,51 @@
+title: $:/plugins/Speff/typograms-tw5/readme
+type: text/vnd.tiddlywiki
+
+\define plugin() $:/plugins/Speff/typograms-tw5
+\define install()
+<$list
+  filter="[<transclusion>prefix[{$(plugin)$/readme|$(plugin)$/readme|||}]]"
+  emptyMessage="$(plugin)$"
+>
+{{ $(plugin)$||$:/core/ui/Components/plugin-info }}
+</$list>
+\end
+
+
+! typograms-tw5
+
+!! What is it
+
+Wrapper for Google's Typograms.js - a javascript library which can render ASCII diagrams into simple diagrams
+<br> Take a look at [[the Typogram page|https://google.github.io/typograms/]] for more details and examples
+
+!! Calling it
+
+The renderer can be invoked in one of two ways -
+
+* Via the `<$typogram/>` widget. Typical usage:
+
+<<<
+`<$typogram zoom=0.3 text="""
+[ASCII ART HERE]
+"""/>`
+<br>Note: a `height` attribute can also be passed if needed. `zoom=0.3` is the default value and does not need to be provided
+<<<
+
+* Transclusion via the newly added `text/vnd.tiddlywiki.typogram` content type
+<<<
+A new tiddler can be created with the aforementioned content type which can then be transcluded to other tiddlers. A new dropdown item has been created which can be used to quickly select this type. ''The text in the typogram tiddler should only contain code for the typogram itself''
+<br>Note: custom options such as `height` and `zoom` can't be passed if using this method
+<<<
+
+!! Helper object
+
+Diagramming a typogram is only possible when using a monospace font. A new toolbar button has been included with this plugin to toggle between variable/monospace font for the text editor
+
+!! Installation
+
+Manually install the plugin by dragging this link to your TiddlyWiki:
+
+<<install>>
+
+Then save and refresh your TiddlyWiki. 

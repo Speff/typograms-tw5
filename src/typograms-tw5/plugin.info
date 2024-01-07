@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/Speff/typograms-tw5",
+  "name": "typograms-tw5",
+  "author": "Speff",
+  "description": "Wrapper for Google's Typograms.js",
+  "plugin-type": "plugin",
+  "version": "1.0.4",
+  "list": "readme credits"
+}

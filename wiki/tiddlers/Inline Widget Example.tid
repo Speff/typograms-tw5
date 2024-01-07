@@ -1,0 +1,36 @@
+created: 20240107174208944
+modified: 20240107174755750
+tags: examples
+title: Inline Widget Example
+type: text/vnd.tiddlywiki
+
+
+
+```
+<$typogram zoom=0.3 text="""
+
+    Sender                Mail Server              Receiver
+                             _____
+  .---------.    SMTP       |=====|      POP      .---------.
+  |         |-------------->|     |<--------------|         |
+  |  Alice  |               |     |               |   Bob   |
+  +---------+               |  o  |               +---------+
+ /// _____ \\\              |_____|              /// _____ \\\
+'-------------'                                 '-------------'
+"""/>
+
+```
+
+turns into →
+
+<$typogram zoom=0.3 text="""
+
+    Sender                Mail Server              Receiver
+                             _____
+  .---------.    SMTP       |=====|      POP      .---------.
+  |         |-------------->|     |<--------------|         |
+  |  Alice  |               |     |               |   Bob   |
+  +---------+               |  o  |               +---------+
+ /// _____ \\\              |_____|              /// _____ \\\
+'-------------'                                 '-------------'
+"""/>
