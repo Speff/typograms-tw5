@@ -4,6 +4,6 @@
   "author": "Speff",
   "description": "Wrapper for Google's Typograms.js",
   "plugin-type": "plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "list": "readme credits"
 }
